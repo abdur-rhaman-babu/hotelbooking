@@ -1,0 +1,105 @@
+
+.signupcontainer{
+    display:flex;
+    align-items:center;
+    height:100vh;
+    justify-content: center;
+  }
+  
+  .Form{
+    background-color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    padding:1.5rem;
+    border-radius:.5rem;
+  }
+  .signupformTitle{
+      display: flex;
+      align-items:center;
+      justify-content:space-between;
+      margin-bottom:.5rem;
+  }
+  
+  .faTimes:hover{
+    color: #cdcdcd;
+    cursor: pointer;
+  }
+  
+  .signupformName{
+      display:flex;
+      gap:.4rem;
+      margin-bottom:.4rem;
+  }
+  
+  .signupformName input{
+      height:2.4rem;
+      outline:0;
+      border: 1px solid #003d60;
+      padding:0 10px;
+  }
+  
+  ::placeholder{
+    font-size:.9rem;
+  }
+  
+  .signUpForm{
+    display:flex;
+    flex-direction: column;
+    gap:.5rem;
+  }
+  
+  .signUpBtn {
+    margin-top: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .signUpBtn button{
+    border:none;
+    padding:.7rem 41%;
+    background-color: #003d60;
+    color:#fff;
+    font-size:1.0623rem;
+    cursor: pointer;
+  }
+  
+  
+  
+  .signUpBtn button:hover {
+    background-color: #012f49;
+    
+  } 
+  
+  .signUpNewPass input,.signUpConfirmPass input,.signUpEmail input{
+    width:100%;
+    outline:none;
+    border:none;
+  }
+  
+  .signUpNewPass,.signUpConfirmPass,.signUpEmail{
+  border: 1px solid #003d60;
+  padding:.8rem;
+  display:flex;
+  align-items:center;
+  }
+  
+  .backHome i{
+    font-size:1.7rem;
+  }
+  
+  .backHome i:hover{
+    color:#003d60;
+    transition:.5s;
+    cursor: pointer;
+  }
+  .backHome {
+    display:flex;
+    gap:.3rem;
+  }
+  
+  .signupformTitle h2{
+    margin-right:3rem;
+  }
+  
+  .signUpNewPass{
+    cursor: pointer;
+  }
